@@ -12,7 +12,7 @@ For further details, please refer to the  <a href="https://arxiv.org/abs/2406.11
 
 
 ## Datasets:
-1. Links of medical datasets:
+1. Links to medical datasets:
 
 | Dataset Name | Link | Access |
 |--------------|------|--------|
@@ -22,18 +22,18 @@ For further details, please refer to the  <a href="https://arxiv.org/abs/2406.11
 | SLAKE | https://www.med-vqa.com/slake/ | 	Open Access | 
 
 
-2. The CoMT-format datasets proposed in this paper are stored in [/CoMT/dataset](https://github.com/TIMMY-CHAN/MILE/blob/main/Instruction_dataset/instruction_data.json). The images in the dataset should be downloaded from the provided link and stored at the corresponding path.
+2. The CoMT-format datasets proposed in this paper are stored in [/CoMT/dataset](https://github.com/FRENKIE-CHIANG/CoMT/tree/main/dataset). The images in the dataset should be downloaded from the provided link and stored at the corresponding path.
 
 ## Evaluation:
-[medihall_score.py](https://github.com/TIMMY-CHAN/MILE/blob/main/eval_vqa.py) is used for caculate the Medihall Score. 
+[medihall_score.py](https://github.com/FRENKIE-CHIANG/CoMT/blob/main/evaluation/medihall_score.py) is used to calculate the Medihall Score. 
 
-[word_metric.py](https://github.com/TIMMY-CHAN/MILE/blob/main/eval_vqa.py) is used for caculate the NLG Score. 
+[word_metric.py](https://github.com/FRENKIE-CHIANG/CoMT/blob/main/evaluation/word_metric.py) is used to calculate the NLG Score. 
 
 Modify some file paths based on your needs. 
 
 
 ## Citation
-If you find this projct to be useful for your research, please consider citing.
+If you find this project to be useful for your research, please consider citing.
 <pre>
 @inproceedings{jiang2024comt,
     title={CoMT: Chain-of-Medical-Thought Reduces Hallucination in Medical Report Generation}, 
